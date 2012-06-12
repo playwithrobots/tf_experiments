@@ -9,7 +9,7 @@ The basic concept used is to send fake keyboard event signal on doing a particul
 
 Usage : 
 
-Run tracker1 node in mouse_motion package, this node publishes transforms of various body joints. 
+Run openni_tracker node in openni_kinect package, this node publishes transforms of various body joints.  ( You can download this package from www.ros.org) 
 
 After this run your game, and during the game pause it, open terminal , run nfs node from package tf_experiments, its syntax is : 
 rosrun tf_experiments nfs “$DISPLAY” 
